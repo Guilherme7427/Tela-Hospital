@@ -1,0 +1,37 @@
+.container1 {
+    background-color: transparent;
+}
+
+.cabeca {
+    background-color: black;
+    text-align: center;
+}
+
+.cabecam {
+    background-color: black;
+}
+
+body {
+    background-image: url(./img/hospital.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    background-color: transparent;
+}
+
+.imgfundog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    /* Ajusta a altura descontando o cabeçalho */
+    width: 100%;
+}
+
+.card-body .mb-2 {
+    text-align: center;
+}
